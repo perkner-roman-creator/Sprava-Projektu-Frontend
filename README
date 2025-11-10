@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+# 🗂️ Správa projektů – Frontend
+
+**Jazyk:** TypeScript + React  
+**Build:** Vite
+=======
+# 🗂️ Správa projektů – Backend
+
+**Jazyk:** TypeScript  
+**Framework:** Node.js + Express + Prisma (SQLite)
+>>>>>>> 469c6bdbec90239225f077349a168c4fadcd3f34
+
+## Spuštění
+
+1. Nainstalujte závislosti:
+<<<<<<< HEAD
+   
+   npm install
+   
+2. Spusťte vývojový server:
+   
+   npm run dev
+```
+3. Otevřete http://localhost:5173
+
+## Funkce
+
+- UI pro správu projektů
+- Přihlášení demo účtem
+- Přidávání, editace, mazání projektů
+=======
+  
+   npm install
+   
+2. Proveďte migraci databáze:
+  
+   npx prisma migrate dev
+  
+3. Spusťte backend:
+   
+   npm run dev
+  
+4. API běží na http://localhost:4500
+
+## Funkce
+
+- REST API pro správu projektů
+- Autentizace (demo účet)
+- Seedování testovacích dat
+
+>>>>>>> 469c6bdbec90239225f077349a168c4fadcd3f34

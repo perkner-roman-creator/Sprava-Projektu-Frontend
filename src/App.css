@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Nadpis stránky */
+.page-title {
+  text-align: center;
+  margin: 12px 0 18px;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* Úvodní nadpis sekce „Projekty“ */
+.intro-title {
+  font-size: clamp(24px, 3.5vw, 34px);
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 8px 0 14px;
+  letter-spacing: -0.02em;
+}
+
+/* Zarovnání hlavního nadpisu na střed */
+.page-header {
+  width: 100%;
+  text-align: center;
+  margin: 8px 0 16px;
+}
+.page-header h1 {
+  margin: 0;
+}
+
+/* Zúžení panelu „Projekty“ */
+.projects-container {
+  max-width: 1024px;   /* dříve menší – teď širší, aby se vešel „Popis“ i „Uložit“ */
+  margin: 0 auto;
+}
+
+/* lepší chování při zmenšení okna */
+@media (max-width: 1024px) {
+  .projects-container { max-width: calc(100% - 24px); padding: 0 12px; }
+}
+/* pokud by se vstupy pořád roztahovaly mimo, pomůže: */
+.projects-container input,
+.projects-container select,
+.projects-container textarea {
+  min-width: 0;
+}
