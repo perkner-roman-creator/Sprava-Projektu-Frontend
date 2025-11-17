@@ -15,10 +15,14 @@
 
 3. Aplikace běží na http://localhost:3000
 
-## Funkce
+Webová aplikace pro správu projektů, která umožňuje:
 
-- Uživatelské rozhraní pro správu projektů
-- Přihlášení (demo účet)
-- Komunikace s backendem přes REST API
+-Přihlášení uživatele a správu jeho projektů
+-Přidávat nové projekty s názvem a popisem
+-Editovat a mazat existující projekty
+-Vyhledávat a filtrovat projekty podle názvu nebo popisu
+-Řadit projekty podle zvolených kritérií
+
+Backend je postaven na Node.js s databází (Prisma), frontend nabízí moderní a přehledné rozhraní. Projekt je vhodný pro evidenci a organizaci projektů v týmu nebo pro jednotlivce.
 
 
